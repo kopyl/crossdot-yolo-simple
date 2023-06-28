@@ -50,11 +50,11 @@ async with aiohttp.ClientSession() as session:
 
 ### Sockerify single-process:
 
-sudo python3 socketify-single-process.py
+`sudo python3 socketify-single-process.py`
 
 ### Sockerify multi-process:
 
-sudo python3 socketify-multi-process.py
+`sudo python3 socketify-multi-process.py`
 
 ### gunicorn:
 
