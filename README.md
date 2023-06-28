@@ -10,6 +10,7 @@ python3 -m pip install --ignore-installed flask==2.3.2 && \
 python3 -m pip install psycopg2-binary==2.9.6 && \
 python3 -m pip install onnxruntime==1.13.1 && \
 python3 -m pip install opencv-python-headless==4.7.0.72 && \
+python3 -m pip install socketify==0.0.20
 ```
 
 ### Test 150 async requests:
