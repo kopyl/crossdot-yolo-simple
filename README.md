@@ -25,3 +25,11 @@ async with aiohttp.ClientSession() as session:
     for result in results:
         print(result)
 ```
+
+### Run Flask app:
+
+`sudo python3 flask-server.py`
+
+### Run Flask app with gunicorn:
+
+`sudo gunicorn --workers=10 -b :80 flask-server:app`
