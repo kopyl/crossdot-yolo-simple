@@ -90,8 +90,7 @@ class_names = {
     78: 'hair drier',
     79: 'toothbrush'
  }
-model_path = os.environ.get("yolov8s-base.onnx")
-yolov8_detector = YOLOv8(model_path, conf_thres=0.35, iou_thres=0.6)
+yolov8_detector = YOLOv8("yolov8s-base.onnx", conf_thres=0.35, iou_thres=0.6)
 
 
 def get_image_from_url(image_url):
