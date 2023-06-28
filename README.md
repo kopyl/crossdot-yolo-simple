@@ -3,7 +3,7 @@
 ```
 sudo su -
 git clone https://github.com/kopyl/crossdot-yolo-simple.git && \
-mv crossdot-yolo-simple/* /home/ubuntu/ && \
+mv crossdot-yolo-simple/* . && \
 rm -r crossdot-yolo-simple && \
 wget https://bootstrap.pypa.io/get-pip.py && \
 python3 get-pip.py && \
