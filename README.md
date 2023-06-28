@@ -1,6 +1,7 @@
 ### Installation:
 
 ```
+sudo su -
 git clone https://github.com/kopyl/crossdot-yolo-simple.git && \
 mv crossdot-yolo-simple/* /home/ubuntu/ && \
 rm -r crossdot-yolo-simple && \
@@ -41,9 +42,19 @@ async with aiohttp.ClientSession() as session:
         print(result)
 ```
 
-### Run Flask app:
+### Run app:
+
+##### Flask:
 
 `sudo python3 flask-server.py`
+
+##### Sockerify single-process:
+
+python3 socketify-single-process.py
+
+##### Sockerify multi-process:
+
+nano socketify-multi-process.py
 
 ### Run Flask app with gunicorn:
 
