@@ -1,4 +1,4 @@
-### Installation:
+## Installation:
 
 ```
 sudo su -
@@ -14,7 +14,7 @@ python3 -m pip install opencv-python-headless==4.7.0.72 && \
 python3 -m pip install socketify==0.0.20
 ```
 
-### Test 150 async requests:
+## Test 150 async requests:
 
 ```
 import aiohttp
@@ -42,20 +42,20 @@ async with aiohttp.ClientSession() as session:
         print(result)
 ```
 
-### Run app:
+## Run app:
 
-##### Flask:
+#### Flask:
 
 `sudo python3 flask-server.py`
 
-##### Sockerify single-process:
+#### Sockerify single-process:
 
 python3 socketify-single-process.py
 
-##### Sockerify multi-process:
+#### Sockerify multi-process:
 
 nano socketify-multi-process.py
 
-### Run Flask app with gunicorn:
+## Run Flask app with gunicorn:
 
 `sudo gunicorn --workers=10 -b :80 flask-server:app`
